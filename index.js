@@ -7,7 +7,7 @@ app.use(express.json());
 app.use('/product', productRouter);
 
 app.get('/', (req, res) => {
-    res.send('<h2>WELCOME - AWS-NODE-CURD App </h2><h3>CI-CD</h3>')
+    res.send('<h2>WELCOME - AWS-NODE-CURD App </h2><h3>CI-CD</h3><h4>THANKS GIVING 6:40AM</h4>')
 });
 app.get('/health', (req, res) => {
     res.send()
